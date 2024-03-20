@@ -14,7 +14,7 @@ function Options() {
   };
 
   return (
-    <div className="bg-black h-screen flex flex-col ">
+    <div className="bg-black min-h-screen flex flex-col ">
       <div className=" flex justify-center  ">
         <p className=" mt-10 text-5xl font-semibold bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent text-center ">
           Select an <br /> Option
@@ -56,7 +56,7 @@ function Options() {
         </div>
         <div>
           <select
-            value={selectedOption}
+            // value={selectedOption}
             onChange={handleOptionChange}
             className="p-4 text-xl rounded-lg  "
           >
